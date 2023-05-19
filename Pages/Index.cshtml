@@ -1,0 +1,32 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Inventario Supermercado</h1>
+</div>
+
+<table class="table">
+    <tr>
+        <th>Sucursal</th>
+        <th>Id Producto</th>
+        <th>Producto</th>
+        <th>Cantidad</th>
+    </tr>
+
+    @foreach (var s in Model.Sucursales)
+    {
+        foreach(var p in s.ProductoSucursals)
+        {
+            <tr>
+                <td>@s.Nombre</td>
+                <td>@p.IdProductoNavigation.Id</td>
+                <td>@p.IdProductoNavigation.Nombre</td>
+                <td>@p.Stock</td>
+            </tr>
+        }
+    }
+
+</table>
