@@ -1,7 +1,7 @@
 ﻿@page
 @model IndexModel
 @{
-    ViewData["Title"] = "Home page";
+    ViewData["Title"] = "Inventario";
 }
 
 <div class="text-center">
@@ -13,7 +13,8 @@
         <th>Sucursal</th>
         <th>Id Producto</th>
         <th>Producto</th>
-        <th>Cantidad</th>
+        <th>Descripcion</th>
+        <th>Stock</th>
     </tr>
 
     @foreach (var s in Model.Sucursales)
@@ -24,6 +25,7 @@
                 <td>@s.Nombre</td>
                 <td>@p.IdProductoNavigation.Id</td>
                 <td>@p.IdProductoNavigation.Nombre</td>
+                <td>@p.IdProductoNavigation.Descripcion</td>
                 <td>@p.Stock</td>
             </tr>
         }
