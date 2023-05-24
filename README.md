@@ -2,6 +2,59 @@
 
 En el siguiente documento se mostraran todos los datos de prueba relacionados a las bases de datos elaboradas.
 
+## Tablas de la base de datos
+
+```bash
+CREATE TABLE `producto` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `codigo` int UNIQUE,
+  `nombre` varchar(50) NOT NULL,
+  `descripcion` varchar(255),
+  `precio` int NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+
+
+CREATE TABLE `sucursal` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `nombre` varchar(45) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+CREATE TABLE `producto_sucursal` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `id_producto` int NOT NULL,
+  `id_sucursal` int NOT NULL,
+  `stock` int NOT NULL,
+  PRIMARY KEY (`id`),
+  CONSTRAINT `producto` FOREIGN KEY (`id_producto`) REFERENCES `producto` (`id`),
+  CONSTRAINT `sucursal` FOREIGN KEY (`id_sucursal`) REFERENCES `sucursal` (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+CREATE TABLE `venta` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `correlativo` long NOT NULL,
+  `fecha` date  NOT NULL,
+  `hora` time NOT NULL,
+  `RutCliente` varchar(255) NOT NULL,
+  `id_sucursal` int NOT NULL,
+  PRIMARY KEY (`id`),
+  FOREIGN KEY (`id_sucursal`) REFERENCES `sucursal` (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+
+CREATE TABLE `detalle` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `id_venta` int NOT NULL,
+  `id_producto` int NOT NULL,
+  `precio` int NOT NULL,
+  PRIMARY KEY (`id`),
+  FOREIGN KEY (`id_producto`) REFERENCES `producto` (`id`),
+  CONSTRAINT `venta` FOREIGN KEY (`id_venta`) REFERENCES `venta` (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+```
 
 ## Producto
 ```bash
