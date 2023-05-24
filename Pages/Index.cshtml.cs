@@ -51,13 +51,11 @@ public class IndexModel : PageModel
     {
         string datosInventario = JsonSerializer.Serialize(lista); //Serializacion de la lista para transformarlo en formato json
 
-        using (StreamWriter archivo = new StreamWriter("..\\Datos\\inventario.txt")) //Creacion del archivo inventario.txt en la carpeta Datos
+        using (StreamWriter archivo = new StreamWriter("..\\Datos\\inventario.json")) //Creacion del archivo inventario.txt en la carpeta Datos
         {
             archivo.Write(datosInventario); //Transcribe los datos del formato json al archivo txt 
             return true;
         }
-        return false;
-
     }
 
     //Metodo para realizar solicitud 
