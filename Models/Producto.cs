@@ -15,5 +15,7 @@ public partial class Producto
 
     public int Precio { get; set; }
 
+    public virtual ICollection<Detalle> Detalles { get; set; } = new List<Detalle>();
+
     public virtual ICollection<ProductoSucursal> ProductoSucursals { get; set; } = new List<ProductoSucursal>();
 }
