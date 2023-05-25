@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Proyecto_Inventario.Models;
 using Microsoft.EntityFrameworkCore;
 using System.Text.Json;
+using Newtonsoft.Json;
 namespace Proyecto_Inventario.Pages;
 
 public class IndexModel : PageModel
@@ -17,41 +18,43 @@ public class IndexModel : PageModel
     }
 
 
-    public List<Inventario> CargadeLista()
+    public void CargadeLista()
     {
 
         Console.WriteLine("Generando archivo de inventario"); // Impresion por consola
         InventarioContext context = new InventarioContext(); //Creacion del contexto
         Sucursales = context.Sucursals.Include(x => x.ProductoSucursals).ThenInclude(x => x.IdProductoNavigation).ToList(); //Navegacion desde sucursal a productos
-        List<Inventario> lista1 = new List<Inventario>(); //Creacion de lista inventario
 
         //Obtencion de datos a traves del recorrido de Sucursales
-
         foreach (var i in Sucursales)
         {
-
+            List<Producto> inventario = new List<Producto>(); //Creacion de lista inventario
             Sucursal sucursal = new Sucursal() { Id = i.Id, Nombre = i.Nombre }; //Creacion de una sucursal
 
             //Obtencion de datos a traves del recorrido de ProductoSucursales
 
             foreach (var j in i.ProductoSucursals)
             {
-                Inventario inventario = new Inventario() { Id = j.IdProducto, Nombre = j.IdProductoNavigation.Nombre, Codigo = j.IdProductoNavigation.Codigo, Descripcion = j.IdProductoNavigation.Descripcion, 
-                Precio = j.IdProductoNavigation.Precio, IdSucursal = sucursal.Id, nombreSucursal = sucursal.Nombre }; //Creacion de un objeto auxiliar inventario para guardar la informacion que necesitaremos
-                lista1.Add(inventario); //Se agrega a la lista inventario el objeto inventario con los datos que necesitamos
+                Producto producto = new Producto() { Id = j.IdProducto, Nombre = j.IdProductoNavigation.Nombre, Codigo = j.IdProductoNavigation.Codigo, Descripcion = j.IdProductoNavigation.Descripcion, 
+                Precio = j.IdProductoNavigation.Precio }; //Creacion de un objeto auxiliar inventario para guardar la informacion que necesitaremos
+                inventario.Add(producto); //Se agrega a la lista inventario el objeto inventario con los datos que necesitamos
             }
+            string nSucursal = sucursal.Nombre;
+
+            //Crear el archivo
+             CreacionArchivo(inventario, nSucursal);
         }
-        return lista1;
 
     }
 
     //Creacion del archivo de texto
 
-    public bool CreacionArchivo(List<Inventario> lista)
+    public bool CreacionArchivo(List<Producto> lista, string nSucursal)
     {
-        string datosInventario = JsonSerializer.Serialize(lista); //Serializacion de la lista para transformarlo en formato json
+        // string datosInventario = JsonConvert.Serialize(lista); //Serializacion de la lista para transformarlo en formato json
+        string datosInventario = JsonConvert.SerializeObject(lista);
 
-        using (StreamWriter archivo = new StreamWriter("..\\Datos\\inventario.json")) //Creacion del archivo inventario.txt en la carpeta Datos
+        using (StreamWriter archivo = new StreamWriter($"..\\Datos\\{nSucursal}.json")) //Creacion del archivo inventario.txt en la carpeta Datos
         {
             archivo.Write(datosInventario); //Transcribe los datos del formato json al archivo txt 
             return true;
@@ -61,9 +64,6 @@ public class IndexModel : PageModel
     //Metodo para realizar solicitud 
     public void OnGet()
     {
-        
-        List<Inventario> ArchivoInventario = CargadeLista(); //Se guarda la lista en una variable lista por buenas practicas.
-        CreacionArchivo(ArchivoInventario ); // Metodo al cual se le entrega una lista y este lo despliega en un archivo txt en formato json.
-
+        CargadeLista(); //Se guarda la lista en una variable lista por buenas practicas.
     }
 }

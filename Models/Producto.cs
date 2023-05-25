@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-
+using Newtonsoft.Json;
 namespace Proyecto_Inventario.Models;
 
 public partial class Producto
@@ -15,7 +15,9 @@ public partial class Producto
 
     public int Precio { get; set; }
 
+    [JsonIgnore]
     public virtual ICollection<Detalle> Detalles { get; set; } = new List<Detalle>();
 
+    [JsonIgnore]
     public virtual ICollection<ProductoSucursal> ProductoSucursals { get; set; } = new List<ProductoSucursal>();
 }

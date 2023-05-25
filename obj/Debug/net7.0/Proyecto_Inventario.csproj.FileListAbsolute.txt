@@ -184,3 +184,4 @@ C:\Users\diego\Desktop\Pr_des_inte\Proyecto_Inventario\obj\Debug\net7.0\refint\P
 C:\Users\diego\Desktop\Pr_des_inte\Proyecto_Inventario\obj\Debug\net7.0\Proyecto_Inventario.pdb
 C:\Users\diego\Desktop\Pr_des_inte\Proyecto_Inventario\obj\Debug\net7.0\Proyecto_Inventario.genruntimeconfig.cache
 C:\Users\diego\Desktop\Pr_des_inte\Proyecto_Inventario\obj\Debug\net7.0\ref\Proyecto_Inventario.dll
+C:\Users\diego\Desktop\Pr_des_inte\Proyecto_Inventario\bin\Debug\net7.0\Newtonsoft.Json.dll
