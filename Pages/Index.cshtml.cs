@@ -33,12 +33,13 @@ public class IndexModel : PageModel
             {
                 Inventario inventario = new Inventario(){Id = j.IdProducto, Nombre = j.IdProductoNavigation.Nombre, Codigo = j.IdProductoNavigation.Codigo, Descripcion = j.IdProductoNavigation.Descripcion, Precio = j.IdProductoNavigation.Precio, IdSucursal = sucursal.Id, nombreSucursal = sucursal.Nombre };
                 lista2.Add(inventario);
+                Console.WriteLine(inventario);
             }
         }
 
         string datosInventario = JsonSerializer.Serialize(lista2);
 
-         using (StreamWriter archivo = new StreamWriter("..\\Datos\\inventario.txt"))
+         using (StreamWriter archivo = new StreamWriter(@"/Users/dragoperic/Desktop/archivosPOS/inventario/inventario.json"))
         {
             archivo.Write(datosInventario);
         }
