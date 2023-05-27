@@ -1,0 +1,29 @@
+﻿@page
+@model ProductosModel
+@{
+    ViewData["Title"] = "Productos Inventario";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Productos Supermercado</h1>
+</div>
+
+<table class="table">
+    <tr>
+        <th>Id Producto</th>
+        <th>Nombre</th>
+        <th>Descripcion</th>
+        <th>Precio</th>
+    </tr>
+
+    @foreach (var s in Model.Productos)
+    {
+            <tr>
+                <td>@s.Id</td>
+                <td>@s.Nombre</td>
+                <td>@s.Descripcion</td>
+                <td>@s.Precio</td>
+            </tr>
+    }
+
+</table>
