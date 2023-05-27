@@ -60,3 +60,128 @@ C:\Users\diego\Desktop\Proyecto_Inventario\obj\Debug\net7.0\refint\Proyecto_Inve
 C:\Users\diego\Desktop\Proyecto_Inventario\obj\Debug\net7.0\Proyecto_Inventario.pdb
 C:\Users\diego\Desktop\Proyecto_Inventario\obj\Debug\net7.0\Proyecto_Inventario.genruntimeconfig.cache
 C:\Users\diego\Desktop\Proyecto_Inventario\obj\Debug\net7.0\ref\Proyecto_Inventario.dll
+C:\Users\DLeon\Desktop\Diego\Universidad 2023 - semestre 1\Pr. Desarrollo e integracion de soluciones\Proyecto_Inventario\bin\Debug\net7.0\appsettings.json
+C:\Users\DLeon\Desktop\Diego\Universidad 2023 - semestre 1\Pr. Desarrollo e integracion de soluciones\Proyecto_Inventario\bin\Debug\net7.0\Proyecto_Inventario.staticwebassets.runtime.json
+C:\Users\DLeon\Desktop\Diego\Universidad 2023 - semestre 1\Pr. Desarrollo e integracion de soluciones\Proyecto_Inventario\bin\Debug\net7.0\Proyecto_Inventario.exe
+C:\Users\DLeon\Desktop\Diego\Universidad 2023 - semestre 1\Pr. Desarrollo e integracion de soluciones\Proyecto_Inventario\bin\Debug\net7.0\Proyecto_Inventario.deps.json
+C:\Users\DLeon\Desktop\Diego\Universidad 2023 - semestre 1\Pr. Desarrollo e integracion de soluciones\Proyecto_Inventario\bin\Debug\net7.0\Proyecto_Inventario.runtimeconfig.json
+C:\Users\DLeon\Desktop\Diego\Universidad 2023 - semestre 1\Pr. Desarrollo e integracion de soluciones\Proyecto_Inventario\bin\Debug\net7.0\Proyecto_Inventario.dll
+C:\Users\DLeon\Desktop\Diego\Universidad 2023 - semestre 1\Pr. Desarrollo e integracion de soluciones\Proyecto_Inventario\bin\Debug\net7.0\Proyecto_Inventario.pdb
+C:\Users\DLeon\Desktop\Diego\Universidad 2023 - semestre 1\Pr. Desarrollo e integracion de soluciones\Proyecto_Inventario\bin\Debug\net7.0\Google.Protobuf.dll
+C:\Users\DLeon\Desktop\Diego\Universidad 2023 - semestre 1\Pr. Desarrollo e integracion de soluciones\Proyecto_Inventario\bin\Debug\net7.0\Humanizer.dll
+C:\Users\DLeon\Desktop\Diego\Universidad 2023 - semestre 1\Pr. Desarrollo e integracion de soluciones\Proyecto_Inventario\bin\Debug\net7.0\K4os.Compression.LZ4.dll
+C:\Users\DLeon\Desktop\Diego\Universidad 2023 - semestre 1\Pr. Desarrollo e integracion de soluciones\Proyecto_Inventario\bin\Debug\net7.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\DLeon\Desktop\Diego\Universidad 2023 - semestre 1\Pr. Desarrollo e integracion de soluciones\Proyecto_Inventario\bin\Debug\net7.0\K4os.Hash.xxHash.dll
+C:\Users\DLeon\Desktop\Diego\Universidad 2023 - semestre 1\Pr. Desarrollo e integracion de soluciones\Proyecto_Inventario\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\DLeon\Desktop\Diego\Universidad 2023 - semestre 1\Pr. Desarrollo e integracion de soluciones\Proyecto_Inventario\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\DLeon\Desktop\Diego\Universidad 2023 - semestre 1\Pr. Desarrollo e integracion de soluciones\Proyecto_Inventario\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\DLeon\Desktop\Diego\Universidad 2023 - semestre 1\Pr. Desarrollo e integracion de soluciones\Proyecto_Inventario\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\DLeon\Desktop\Diego\Universidad 2023 - semestre 1\Pr. Desarrollo e integracion de soluciones\Proyecto_Inventario\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\DLeon\Desktop\Diego\Universidad 2023 - semestre 1\Pr. Desarrollo e integracion de soluciones\Proyecto_Inventario\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\DLeon\Desktop\Diego\Universidad 2023 - semestre 1\Pr. Desarrollo e integracion de soluciones\Proyecto_Inventario\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\DLeon\Desktop\Diego\Universidad 2023 - semestre 1\Pr. Desarrollo e integracion de soluciones\Proyecto_Inventario\bin\Debug\net7.0\MySql.Data.dll
+C:\Users\DLeon\Desktop\Diego\Universidad 2023 - semestre 1\Pr. Desarrollo e integracion de soluciones\Proyecto_Inventario\bin\Debug\net7.0\MySql.EntityFrameworkCore.dll
+C:\Users\DLeon\Desktop\Diego\Universidad 2023 - semestre 1\Pr. Desarrollo e integracion de soluciones\Proyecto_Inventario\bin\Debug\net7.0\BouncyCastle.Crypto.dll
+C:\Users\DLeon\Desktop\Diego\Universidad 2023 - semestre 1\Pr. Desarrollo e integracion de soluciones\Proyecto_Inventario\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\DLeon\Desktop\Diego\Universidad 2023 - semestre 1\Pr. Desarrollo e integracion de soluciones\Proyecto_Inventario\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\DLeon\Desktop\Diego\Universidad 2023 - semestre 1\Pr. Desarrollo e integracion de soluciones\Proyecto_Inventario\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\DLeon\Desktop\Diego\Universidad 2023 - semestre 1\Pr. Desarrollo e integracion de soluciones\Proyecto_Inventario\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\DLeon\Desktop\Diego\Universidad 2023 - semestre 1\Pr. Desarrollo e integracion de soluciones\Proyecto_Inventario\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\DLeon\Desktop\Diego\Universidad 2023 - semestre 1\Pr. Desarrollo e integracion de soluciones\Proyecto_Inventario\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Users\DLeon\Desktop\Diego\Universidad 2023 - semestre 1\Pr. Desarrollo e integracion de soluciones\Proyecto_Inventario\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\DLeon\Desktop\Diego\Universidad 2023 - semestre 1\Pr. Desarrollo e integracion de soluciones\Proyecto_Inventario\bin\Debug\net7.0\runtimes\win-x64\native\comerr64.dll
+C:\Users\DLeon\Desktop\Diego\Universidad 2023 - semestre 1\Pr. Desarrollo e integracion de soluciones\Proyecto_Inventario\bin\Debug\net7.0\runtimes\win-x64\native\gssapi64.dll
+C:\Users\DLeon\Desktop\Diego\Universidad 2023 - semestre 1\Pr. Desarrollo e integracion de soluciones\Proyecto_Inventario\bin\Debug\net7.0\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\DLeon\Desktop\Diego\Universidad 2023 - semestre 1\Pr. Desarrollo e integracion de soluciones\Proyecto_Inventario\bin\Debug\net7.0\runtimes\win-x64\native\krb5_64.dll
+C:\Users\DLeon\Desktop\Diego\Universidad 2023 - semestre 1\Pr. Desarrollo e integracion de soluciones\Proyecto_Inventario\bin\Debug\net7.0\runtimes\win-x64\native\krbcc64.dll
+C:\Users\DLeon\Desktop\Diego\Universidad 2023 - semestre 1\Pr. Desarrollo e integracion de soluciones\Proyecto_Inventario\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\DLeon\Desktop\Diego\Universidad 2023 - semestre 1\Pr. Desarrollo e integracion de soluciones\Proyecto_Inventario\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\DLeon\Desktop\Diego\Universidad 2023 - semestre 1\Pr. Desarrollo e integracion de soluciones\Proyecto_Inventario\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\DLeon\Desktop\Diego\Universidad 2023 - semestre 1\Pr. Desarrollo e integracion de soluciones\Proyecto_Inventario\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\DLeon\Desktop\Diego\Universidad 2023 - semestre 1\Pr. Desarrollo e integracion de soluciones\Proyecto_Inventario\obj\Debug\net7.0\Proyecto_Inventario.csproj.AssemblyReference.cache
+C:\Users\DLeon\Desktop\Diego\Universidad 2023 - semestre 1\Pr. Desarrollo e integracion de soluciones\Proyecto_Inventario\obj\Debug\net7.0\Proyecto_Inventario.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DLeon\Desktop\Diego\Universidad 2023 - semestre 1\Pr. Desarrollo e integracion de soluciones\Proyecto_Inventario\obj\Debug\net7.0\Proyecto_Inventario.AssemblyInfoInputs.cache
+C:\Users\DLeon\Desktop\Diego\Universidad 2023 - semestre 1\Pr. Desarrollo e integracion de soluciones\Proyecto_Inventario\obj\Debug\net7.0\Proyecto_Inventario.AssemblyInfo.cs
+C:\Users\DLeon\Desktop\Diego\Universidad 2023 - semestre 1\Pr. Desarrollo e integracion de soluciones\Proyecto_Inventario\obj\Debug\net7.0\Proyecto_Inventario.csproj.CoreCompileInputs.cache
+C:\Users\DLeon\Desktop\Diego\Universidad 2023 - semestre 1\Pr. Desarrollo e integracion de soluciones\Proyecto_Inventario\obj\Debug\net7.0\Proyecto_Inventario.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\DLeon\Desktop\Diego\Universidad 2023 - semestre 1\Pr. Desarrollo e integracion de soluciones\Proyecto_Inventario\obj\Debug\net7.0\Proyecto_Inventario.RazorAssemblyInfo.cache
+C:\Users\DLeon\Desktop\Diego\Universidad 2023 - semestre 1\Pr. Desarrollo e integracion de soluciones\Proyecto_Inventario\obj\Debug\net7.0\Proyecto_Inventario.RazorAssemblyInfo.cs
+C:\Users\DLeon\Desktop\Diego\Universidad 2023 - semestre 1\Pr. Desarrollo e integracion de soluciones\Proyecto_Inventario\obj\Debug\net7.0\staticwebassets\msbuild.Proyecto_Inventario.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\DLeon\Desktop\Diego\Universidad 2023 - semestre 1\Pr. Desarrollo e integracion de soluciones\Proyecto_Inventario\obj\Debug\net7.0\staticwebassets\msbuild.build.Proyecto_Inventario.props
+C:\Users\DLeon\Desktop\Diego\Universidad 2023 - semestre 1\Pr. Desarrollo e integracion de soluciones\Proyecto_Inventario\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Proyecto_Inventario.props
+C:\Users\DLeon\Desktop\Diego\Universidad 2023 - semestre 1\Pr. Desarrollo e integracion de soluciones\Proyecto_Inventario\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Proyecto_Inventario.props
+C:\Users\DLeon\Desktop\Diego\Universidad 2023 - semestre 1\Pr. Desarrollo e integracion de soluciones\Proyecto_Inventario\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\DLeon\Desktop\Diego\Universidad 2023 - semestre 1\Pr. Desarrollo e integracion de soluciones\Proyecto_Inventario\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\DLeon\Desktop\Diego\Universidad 2023 - semestre 1\Pr. Desarrollo e integracion de soluciones\Proyecto_Inventario\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\DLeon\Desktop\Diego\Universidad 2023 - semestre 1\Pr. Desarrollo e integracion de soluciones\Proyecto_Inventario\obj\Debug\net7.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\DLeon\Desktop\Diego\Universidad 2023 - semestre 1\Pr. Desarrollo e integracion de soluciones\Proyecto_Inventario\obj\Debug\net7.0\scopedcss\bundle\Proyecto_Inventario.styles.css
+C:\Users\DLeon\Desktop\Diego\Universidad 2023 - semestre 1\Pr. Desarrollo e integracion de soluciones\Proyecto_Inventario\obj\Debug\net7.0\scopedcss\projectbundle\Proyecto_Inventario.bundle.scp.css
+C:\Users\DLeon\Desktop\Diego\Universidad 2023 - semestre 1\Pr. Desarrollo e integracion de soluciones\Proyecto_Inventario\obj\Debug\net7.0\Proyecto_Inventario.csproj.CopyComplete
+C:\Users\DLeon\Desktop\Diego\Universidad 2023 - semestre 1\Pr. Desarrollo e integracion de soluciones\Proyecto_Inventario\obj\Debug\net7.0\Proyecto_Inventario.dll
+C:\Users\DLeon\Desktop\Diego\Universidad 2023 - semestre 1\Pr. Desarrollo e integracion de soluciones\Proyecto_Inventario\obj\Debug\net7.0\refint\Proyecto_Inventario.dll
+C:\Users\DLeon\Desktop\Diego\Universidad 2023 - semestre 1\Pr. Desarrollo e integracion de soluciones\Proyecto_Inventario\obj\Debug\net7.0\Proyecto_Inventario.pdb
+C:\Users\DLeon\Desktop\Diego\Universidad 2023 - semestre 1\Pr. Desarrollo e integracion de soluciones\Proyecto_Inventario\obj\Debug\net7.0\Proyecto_Inventario.genruntimeconfig.cache
+C:\Users\DLeon\Desktop\Diego\Universidad 2023 - semestre 1\Pr. Desarrollo e integracion de soluciones\Proyecto_Inventario\obj\Debug\net7.0\ref\Proyecto_Inventario.dll
+C:\Users\diego\Desktop\Pr_des_inte\Proyecto_Inventario\bin\Debug\net7.0\appsettings.json
+C:\Users\diego\Desktop\Pr_des_inte\Proyecto_Inventario\bin\Debug\net7.0\Proyecto_Inventario.staticwebassets.runtime.json
+C:\Users\diego\Desktop\Pr_des_inte\Proyecto_Inventario\bin\Debug\net7.0\Proyecto_Inventario.exe
+C:\Users\diego\Desktop\Pr_des_inte\Proyecto_Inventario\bin\Debug\net7.0\Proyecto_Inventario.deps.json
+C:\Users\diego\Desktop\Pr_des_inte\Proyecto_Inventario\bin\Debug\net7.0\Proyecto_Inventario.runtimeconfig.json
+C:\Users\diego\Desktop\Pr_des_inte\Proyecto_Inventario\bin\Debug\net7.0\Proyecto_Inventario.dll
+C:\Users\diego\Desktop\Pr_des_inte\Proyecto_Inventario\bin\Debug\net7.0\Proyecto_Inventario.pdb
+C:\Users\diego\Desktop\Pr_des_inte\Proyecto_Inventario\bin\Debug\net7.0\Google.Protobuf.dll
+C:\Users\diego\Desktop\Pr_des_inte\Proyecto_Inventario\bin\Debug\net7.0\Humanizer.dll
+C:\Users\diego\Desktop\Pr_des_inte\Proyecto_Inventario\bin\Debug\net7.0\K4os.Compression.LZ4.dll
+C:\Users\diego\Desktop\Pr_des_inte\Proyecto_Inventario\bin\Debug\net7.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\diego\Desktop\Pr_des_inte\Proyecto_Inventario\bin\Debug\net7.0\K4os.Hash.xxHash.dll
+C:\Users\diego\Desktop\Pr_des_inte\Proyecto_Inventario\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\diego\Desktop\Pr_des_inte\Proyecto_Inventario\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\diego\Desktop\Pr_des_inte\Proyecto_Inventario\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\diego\Desktop\Pr_des_inte\Proyecto_Inventario\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\diego\Desktop\Pr_des_inte\Proyecto_Inventario\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\diego\Desktop\Pr_des_inte\Proyecto_Inventario\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\diego\Desktop\Pr_des_inte\Proyecto_Inventario\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\diego\Desktop\Pr_des_inte\Proyecto_Inventario\bin\Debug\net7.0\MySql.Data.dll
+C:\Users\diego\Desktop\Pr_des_inte\Proyecto_Inventario\bin\Debug\net7.0\MySql.EntityFrameworkCore.dll
+C:\Users\diego\Desktop\Pr_des_inte\Proyecto_Inventario\bin\Debug\net7.0\BouncyCastle.Crypto.dll
+C:\Users\diego\Desktop\Pr_des_inte\Proyecto_Inventario\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\diego\Desktop\Pr_des_inte\Proyecto_Inventario\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\diego\Desktop\Pr_des_inte\Proyecto_Inventario\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\diego\Desktop\Pr_des_inte\Proyecto_Inventario\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\diego\Desktop\Pr_des_inte\Proyecto_Inventario\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\diego\Desktop\Pr_des_inte\Proyecto_Inventario\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Users\diego\Desktop\Pr_des_inte\Proyecto_Inventario\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\diego\Desktop\Pr_des_inte\Proyecto_Inventario\bin\Debug\net7.0\runtimes\win-x64\native\comerr64.dll
+C:\Users\diego\Desktop\Pr_des_inte\Proyecto_Inventario\bin\Debug\net7.0\runtimes\win-x64\native\gssapi64.dll
+C:\Users\diego\Desktop\Pr_des_inte\Proyecto_Inventario\bin\Debug\net7.0\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\diego\Desktop\Pr_des_inte\Proyecto_Inventario\bin\Debug\net7.0\runtimes\win-x64\native\krb5_64.dll
+C:\Users\diego\Desktop\Pr_des_inte\Proyecto_Inventario\bin\Debug\net7.0\runtimes\win-x64\native\krbcc64.dll
+C:\Users\diego\Desktop\Pr_des_inte\Proyecto_Inventario\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\diego\Desktop\Pr_des_inte\Proyecto_Inventario\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\diego\Desktop\Pr_des_inte\Proyecto_Inventario\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\diego\Desktop\Pr_des_inte\Proyecto_Inventario\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\diego\Desktop\Pr_des_inte\Proyecto_Inventario\obj\Debug\net7.0\Proyecto_Inventario.csproj.AssemblyReference.cache
+C:\Users\diego\Desktop\Pr_des_inte\Proyecto_Inventario\obj\Debug\net7.0\Proyecto_Inventario.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\diego\Desktop\Pr_des_inte\Proyecto_Inventario\obj\Debug\net7.0\Proyecto_Inventario.AssemblyInfoInputs.cache
+C:\Users\diego\Desktop\Pr_des_inte\Proyecto_Inventario\obj\Debug\net7.0\Proyecto_Inventario.AssemblyInfo.cs
+C:\Users\diego\Desktop\Pr_des_inte\Proyecto_Inventario\obj\Debug\net7.0\Proyecto_Inventario.csproj.CoreCompileInputs.cache
+C:\Users\diego\Desktop\Pr_des_inte\Proyecto_Inventario\obj\Debug\net7.0\Proyecto_Inventario.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\diego\Desktop\Pr_des_inte\Proyecto_Inventario\obj\Debug\net7.0\Proyecto_Inventario.RazorAssemblyInfo.cache
+C:\Users\diego\Desktop\Pr_des_inte\Proyecto_Inventario\obj\Debug\net7.0\Proyecto_Inventario.RazorAssemblyInfo.cs
+C:\Users\diego\Desktop\Pr_des_inte\Proyecto_Inventario\obj\Debug\net7.0\staticwebassets\msbuild.Proyecto_Inventario.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\diego\Desktop\Pr_des_inte\Proyecto_Inventario\obj\Debug\net7.0\staticwebassets\msbuild.build.Proyecto_Inventario.props
+C:\Users\diego\Desktop\Pr_des_inte\Proyecto_Inventario\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Proyecto_Inventario.props
+C:\Users\diego\Desktop\Pr_des_inte\Proyecto_Inventario\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Proyecto_Inventario.props
+C:\Users\diego\Desktop\Pr_des_inte\Proyecto_Inventario\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\diego\Desktop\Pr_des_inte\Proyecto_Inventario\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\diego\Desktop\Pr_des_inte\Proyecto_Inventario\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\diego\Desktop\Pr_des_inte\Proyecto_Inventario\obj\Debug\net7.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\diego\Desktop\Pr_des_inte\Proyecto_Inventario\obj\Debug\net7.0\scopedcss\bundle\Proyecto_Inventario.styles.css
+C:\Users\diego\Desktop\Pr_des_inte\Proyecto_Inventario\obj\Debug\net7.0\scopedcss\projectbundle\Proyecto_Inventario.bundle.scp.css
+C:\Users\diego\Desktop\Pr_des_inte\Proyecto_Inventario\obj\Debug\net7.0\Proyecto_Inventario.csproj.CopyComplete
+C:\Users\diego\Desktop\Pr_des_inte\Proyecto_Inventario\obj\Debug\net7.0\Proyecto_Inventario.dll
+C:\Users\diego\Desktop\Pr_des_inte\Proyecto_Inventario\obj\Debug\net7.0\refint\Proyecto_Inventario.dll
+C:\Users\diego\Desktop\Pr_des_inte\Proyecto_Inventario\obj\Debug\net7.0\Proyecto_Inventario.pdb
+C:\Users\diego\Desktop\Pr_des_inte\Proyecto_Inventario\obj\Debug\net7.0\Proyecto_Inventario.genruntimeconfig.cache
+C:\Users\diego\Desktop\Pr_des_inte\Proyecto_Inventario\obj\Debug\net7.0\ref\Proyecto_Inventario.dll
+C:\Users\diego\Desktop\Pr_des_inte\Proyecto_Inventario\bin\Debug\net7.0\Newtonsoft.Json.dll

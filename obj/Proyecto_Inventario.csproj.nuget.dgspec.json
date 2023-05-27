@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\diego\\Desktop\\Proyecto_Inventario\\Proyecto_Inventario.csproj": {}
+    "C:\\Users\\diego\\Desktop\\Pr_des_inte\\Proyecto_Inventario\\Proyecto_Inventario.csproj": {}
   },
   "projects": {
-    "C:\\Users\\diego\\Desktop\\Proyecto_Inventario\\Proyecto_Inventario.csproj": {
+    "C:\\Users\\diego\\Desktop\\Pr_des_inte\\Proyecto_Inventario\\Proyecto_Inventario.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\diego\\Desktop\\Proyecto_Inventario\\Proyecto_Inventario.csproj",
+        "projectUniqueName": "C:\\Users\\diego\\Desktop\\Pr_des_inte\\Proyecto_Inventario\\Proyecto_Inventario.csproj",
         "projectName": "Proyecto_Inventario",
-        "projectPath": "C:\\Users\\diego\\Desktop\\Proyecto_Inventario\\Proyecto_Inventario.csproj",
+        "projectPath": "C:\\Users\\diego\\Desktop\\Pr_des_inte\\Proyecto_Inventario\\Proyecto_Inventario.csproj",
         "packagesPath": "C:\\Users\\diego\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\diego\\Desktop\\Proyecto_Inventario\\obj\\",
+        "outputPath": "C:\\Users\\diego\\Desktop\\Pr_des_inte\\Proyecto_Inventario\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -59,6 +59,10 @@
             "MySql.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.2, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             }
           },
           "imports": [
