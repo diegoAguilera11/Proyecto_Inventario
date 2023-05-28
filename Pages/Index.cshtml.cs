@@ -8,6 +8,11 @@ namespace Proyecto_Inventario.Pages;
 
 public class IndexModel : PageModel
 {
+    JsonSerializerSettings settings = new JsonSerializerSettings
+    {
+        ReferenceLoopHandling = ReferenceLoopHandling.Ignore
+    };
+
     private readonly ILogger<IndexModel> _logger;
 
     public List<Sucursal> Sucursales;
@@ -35,14 +40,20 @@ public class IndexModel : PageModel
 
             foreach (var j in i.ProductoSucursals)
             {
-                Producto producto = new Producto() { Id = j.IdProducto, Nombre = j.IdProductoNavigation.Nombre, Codigo = j.IdProductoNavigation.Codigo, Descripcion = j.IdProductoNavigation.Descripcion, 
-                Precio = j.IdProductoNavigation.Precio }; //Creacion de un objeto auxiliar inventario para guardar la informacion que necesitaremos
+                Producto producto = new Producto()
+                {
+                    Id = j.IdProducto,
+                    Nombre = j.IdProductoNavigation.Nombre,
+                    Codigo = j.IdProductoNavigation.Codigo,
+                    Descripcion = j.IdProductoNavigation.Descripcion,
+                    Precio = j.IdProductoNavigation.Precio
+                }; //Creacion de un objeto auxiliar inventario para guardar la informacion que necesitaremos
                 inventario.Add(producto); //Se agrega a la lista inventario el objeto inventario con los datos que necesitamos
             }
             string nSucursal = sucursal.Nombre;
 
             //Crear el archivo
-             CreacionArchivo(inventario, nSucursal);
+            CreacionArchivo(inventario, nSucursal);
         }
 
     }
@@ -52,7 +63,7 @@ public class IndexModel : PageModel
     public bool CreacionArchivo(List<Producto> lista, string nSucursal)
     {
         // string datosInventario = JsonConvert.Serialize(lista); //Serializacion de la lista para transformarlo en formato json
-        string datosInventario = JsonConvert.SerializeObject(lista);
+        string datosInventario = JsonConvert.SerializeObject(lista, Formatting.Indented, settings);
 
         using (StreamWriter archivo = new StreamWriter($"..\\Datos\\{nSucursal}.json")) //Creacion del archivo inventario.txt en la carpeta Datos
         {
