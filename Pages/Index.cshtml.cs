@@ -28,6 +28,7 @@ public class IndexModel : PageModel
 
         Console.WriteLine("Generando archivo de inventario"); // Impresion por consola
         InventarioContext context = new InventarioContext(); //Creacion del contexto
+        
         Sucursales = context.Sucursals.Include(x => x.ProductoSucursals).ThenInclude(x => x.IdProductoNavigation).ToList(); //Navegacion desde sucursal a productos
 
         //Obtencion de datos a traves del recorrido de Sucursales

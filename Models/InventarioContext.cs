@@ -29,7 +29,7 @@ public partial class InventarioContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseMySQL("server=localhost;port=3308;database=inventario;user=root;password=root123");
+        => optionsBuilder.UseMySQL("server=localhost;database=inventario;port=3308;user=root;password=root123");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -41,7 +41,7 @@ public partial class InventarioContext : DbContext
 
             entity.HasIndex(e => e.IdProducto, "id_producto");
 
-            entity.HasIndex(e => e.IdVenta, "venta");
+            entity.HasIndex(e => e.IdVenta, "id_venta");
 
             entity.Property(e => e.Id).HasColumnName("id");
             entity.Property(e => e.Cantidad).HasColumnName("cantidad");
@@ -57,7 +57,7 @@ public partial class InventarioContext : DbContext
             entity.HasOne(d => d.IdVentaNavigation).WithMany(p => p.Detalles)
                 .HasForeignKey(d => d.IdVenta)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("venta");
+                .HasConstraintName("detalle_ibfk_2");
         });
 
         modelBuilder.Entity<Efmigrationshistory>(entity =>
@@ -95,9 +95,9 @@ public partial class InventarioContext : DbContext
 
             entity.ToTable("producto_sucursal");
 
-            entity.HasIndex(e => e.IdProducto, "producto");
+            entity.HasIndex(e => e.IdProducto, "id_producto");
 
-            entity.HasIndex(e => e.IdSucursal, "sucursal");
+            entity.HasIndex(e => e.IdSucursal, "id_sucursal");
 
             entity.Property(e => e.Id).HasColumnName("id");
             entity.Property(e => e.IdProducto).HasColumnName("id_producto");
@@ -107,12 +107,12 @@ public partial class InventarioContext : DbContext
             entity.HasOne(d => d.IdProductoNavigation).WithMany(p => p.ProductoSucursals)
                 .HasForeignKey(d => d.IdProducto)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("producto");
+                .HasConstraintName("producto_sucursal_ibfk_1");
 
             entity.HasOne(d => d.IdSucursalNavigation).WithMany(p => p.ProductoSucursals)
                 .HasForeignKey(d => d.IdSucursal)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("sucursal");
+                .HasConstraintName("producto_sucursal_ibfk_2");
         });
 
         modelBuilder.Entity<Sucursal>(entity =>

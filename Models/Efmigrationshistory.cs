@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Proyecto_Inventario;
+namespace Proyecto_Inventario.Models;
 
 public partial class Efmigrationshistory
 {
