@@ -122,3 +122,4 @@ C:/Users/diego/Desktop/Proyecto_Inventario/obj/Debug/net7.0/ref/Proyecto_Inventa
 /Users/dragoperic/Desktop/Proyecto_Inventario/obj/Debug/net7.0/Proyecto_Inventario.pdb
 /Users/dragoperic/Desktop/Proyecto_Inventario/obj/Debug/net7.0/Proyecto_Inventario.genruntimeconfig.cache
 /Users/dragoperic/Desktop/Proyecto_Inventario/obj/Debug/net7.0/ref/Proyecto_Inventario.dll
+/Users/dragoperic/Desktop/Proyecto_Inventario/bin/Debug/net7.0/Newtonsoft.Json.dll
